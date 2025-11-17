@@ -1,1 +1,232 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yonghyun Kim</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet'>
+
+  <style>
+    header, .sectionheader, .ibody, .dl-papers {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .dt-conf {
+      width: 149px;
+      float: left;
+      clear: left;
+
+      font-family: 'Noto Sans';
+      font-weight: bold;
+    }
+    .dt-conf::after {
+      content: '';
+    }
+
+    .dd-conf {
+      font-family: 'Noto Sans';
+      margin-left: 127px;
+      margin-bottom: 7px;
+    }
+
+    .dd-others {
+      font-family: 'Noto Sans';
+      margin-left: 0px;
+      margin-bottom: 7px;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 47px;
+      margin-bottom: 29px;
+    }
+
+    .nameheader {
+      width: 100%;
+      text-align: left;
+      font-family: 'Inconsolata';
+      font-size: 47px;
+      margin-left: 19px;
+      margin-bottom: 13px;
+    }
+
+    .schoolheader {
+      width: 100%;
+      text-align: left;
+      font-family: 'Inconsolata';
+      font-size: 23px;
+      margin-left: 19px;
+    }
+
+    .spacer{
+      margin-bottom: 13px;
+    }
+
+    .namebody {
+      width: 100%;
+      text-align: left;
+      font-family: 'Noto Sans';
+      margin-left: 19px;
+      margin-bottom: 11px;
+    }
+
+    .sectionheader {
+      text-align: left;
+      font-family: 'Inconsolata';
+      font-size: 33px;
+      margin-bottom: 13px;
+    }
+
+    .ibody {
+      text-align: left;
+      font-family: 'Noto Sans';
+      margin-bottom: 19px;
+    }
+
+    
+  </style>
+</head>
+<body style="background-color:#F6F4ED">
+
+  <header>
+    <table style="width: 100%"><tbody>
+      <td style="width: 25%">
+        <img src="pics/champagne.jpg" alt="me" width=210 height=253>
+      </td>
+      <td style="width: 75%">
+      <div class="nameheader"> Yonghyun Kim </div>
+      <div class="schoolheader"> Postdoctoral Researcher </div>
+      <div class="schoolheader"> Max Planck Institute for Security and Privacy </div>
+      <div class="spacer"></div>
+
+
+      <div class="namebody">
+      I am a Postdoctoral Researche at MPI-SP, studying formal method and security
+      with <br>
+      <a href="https://catalin-hritcu.github.io/">Catalin Hritcu</a>.
+      <br>
+      Previously, I did my PhD at Seoul National University advised by 
+      <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a>.
+      <br><br>
+      Email: yonghyun [DOT] kim [AT] mpi-sp [DOT] org
+      <br>
+      Office: MB Building S-W-103, MPI-SP
+      <br>
+      CV: <a href="./cv/YonghyunKimCV.pdf">link</a>
+      </div>
+      </td>
+    </tbody></table>
+  </header>
+
+  <div class="sectionheader">
+    Research Interests
+  </div>
+  <div class="ibody">
+  My primary research interests lie in applying formal methods to security problems.
+  In particular, I am interested in verifying countermeasures against Spectre vulnerabilities (e.g., Speculative Load Hardening) through property-based testing and machine-checked proofs.
+  <br><br>
+  I also hold a strong interest in the formal verification of low-level systems.
+  During my PhD, I focused on verifying compilers and real-time systems using formal methods.
+  </div>
+
+
+  <div class="sectionheader">
+    Publications
+  </div>
+  
+  <dl class="dl-papers">
+
+      <dt class="dt-conf">POPL 2025 <br /> <br />  </dt> <dd class="dd-conf">
+      Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting
+      [<a href="https://sf.snu.ac.kr/publications/archmage.pdf" target="_blank">pdf</a>]
+      <br> 
+      Yonghyun Kim, Minki Cho, Jaehyung Lee, Jinwoo Kim, Taeyoung Yoon, Youngju Song, Chung-Kil Hur</dd>
+
+     <dt class="dt-conf">POPL 2025 <br /> <br />  </dt> <dd class="dd-conf">
+      VeriRT: An End-To-End Verification Framework for Real-Time Distributed Systems
+      [<a href="https://sf.snu.ac.kr/publications/veriRT.pdf" target="_blank">pdf</a>]
+      <br> 
+      Yoonseung Kim, Sung-Hwan Lee, Yonghyun Kim, Chung-Kil Hur</dd>
+
+    <dt class="dt-conf">POPL 2020 <br /> <br />  </dt> <dd class="dd-conf">CompCertM: CompCert with C-Assembly Linking and Lightweight Modular Verification
+      [<a href="https://sf.snu.ac.kr/publications/compcertm.pdf" target="_blank">pdf</a>]
+      <br> 
+      Youngju Song, Minki Cho, Dongjoo Kim, Yonghyun Kim, Jeehoon Kang, Chung-Kil Hur</dd>
+
+    <dt class="dt-conf">PLDI 2018 <br /> <br />  </dt> <dd class="dd-conf">Crellvm: Verified Credible Compilation for LLVM
+      [<a href="https://sf.snu.ac.kr/publications/crellvm.pdf" target="_blank">pdf</a>]  
+      <br> 
+      Jeehoon Kang*, Yoonseung Kim*, Youngju Song*, Juneyoung Lee, Sanghoon Park, Mark Dongyeon Shin,
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yonghyun Kim, Sungkeun Cho, Joonwon Choi, Chung-Kil Hur, Kwangkeun Yi
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(* The first three authors contributed equally to this work and are listed alphabetically.)</dd>
+
+  </dl>
+
+  <div class="sectionheader">
+    Educations
+  </div>
+  
+  <dl class="dl-papers">
+    <dt class="dt-conf">2017.3-2025.2</dt> <dd class="dd-conf">
+      PhD Student, Computer Science and Engineering, Seoul National University
+    </dd>
+    <dt class="dt-conf">2009.2-2016.8</dt> <dd class="dd-conf">
+      B.S. Student, Computer Science & Mathematical Sciences (double major), KAIST
+    </dd>
+    <dt class="dt-conf">2007.3-2009.2</dt> <dd class="dd-conf">
+      Daejeon Science High School
+    </dd>
+
+  </dl>
+
+  <div class="sectionheader">
+    Professional Activities
+  </div>
+  
+  <dl class="dl-papers">
+    <dt class="dt-conf">AEC</dt> <dd class="dd-conf">
+      POPL 2026
+    </dd>
+  </dl>
+
+  <div class="sectionheader">
+    Honors and Awards
+  </div>
+  
+  <dl class="dl-papers">
+    <dt class="dt-conf">2009-2013 <br /> <br /></dt> <dd class="dd-conf">
+      Republic of Korea Presidential Science Scholarship, Korea Student Aid Foundation
+    </dd>
+  </dl>
+
+  <div class="sectionheader">
+    Teaching
+  </div>
+  
+  <dl class="dl-papers">
+    <dt class="dt-conf">TA</dt> <dd class="dd-conf">
+      Foundations of Programming Languages, Verification, and Security, 2025 Summer
+    </dd>
+  </dl>
+  <dl class="dl-papers">
+    <dt class="dt-conf">TA</dt> <dd class="dd-conf">
+      Principles and Practices of Software Development, 2017 Spring, 2018 Spring, 2019 Spring
+    </dd>
+  </dl>
+  <dl class="dl-papers">
+    <dt class="dt-conf">TA</dt> <dd class="dd-conf">
+      Principles of Programming, 2018 Fall, 2019 Fall, 2020 Fall
+    </dd>
+  </dl>
+
+  <br><br>
+</body>
+</html>
+
+
